@@ -12,6 +12,7 @@ header {
     background-image: url(bokita2.jpg);
     color: whitesmoke;
     padding: 30px;
+    
 }
 
 header h1 {
@@ -19,28 +20,56 @@ header h1 {
     font-style: italic;
 }
 
-.asd {
+.botonesnavegacion {
     color: white;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     background-color: rgb(204, 173, 0);
     font-size: 1.5rem;
-    padding: 1rem 5rem;
+    padding: 1rem 4rem;
     display: inline-block;
-    text-decoration: none;        
+    text-decoration: none;
+    border-radius: 1rem;   
+    margin: 0;    
 }
 
-.asd:hover {
+.botonesnavegacion:hover {
     background-color: rgb(255, 217, 0);
-    color: blue
+    color: blue;
 }
 
 nav {
-    background-color: rgba(0, 0, 255, 0.089);
-    padding: 10px 50px;
+    padding: 10px 100px;
+    margin: 0;
 }
 
 #Titulo {
    display: block;
-   background-color: rgba(0, 0, 255, 0.178);
+   width: 20rem;
+   background-color: rgba(0, 0, 255, 0.788);
+}
 
+section div a{
+    color: white;
+    text-decoration: none;
+}
+
+section img {object-fit: cover;}
+
+.cuadritos {
+    width: 300px;
+    display: flex;
+    margin: 2rem;
+}
+
+section div {
+    background-color: blue;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+section div:hover {
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
